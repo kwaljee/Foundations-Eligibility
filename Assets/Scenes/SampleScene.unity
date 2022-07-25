@@ -395,16 +395,6 @@ MonoBehaviour:
   _myCoordX: 0
   _myCoordY: 0
   canClick: 0
-  _Cube:
-  - {fileID: 933829465}
-  - {fileID: 869827071}
-  - {fileID: 1300775585}
-  - {fileID: 488615359}
-  - {fileID: 1115226682}
-  - {fileID: 1375841065}
-  - {fileID: 438058089}
-  - {fileID: 498521336}
-  - {fileID: 704061765}
 --- !u!1 &438058089
 GameObject:
   m_ObjectHideFlags: 0
@@ -452,7 +442,6 @@ MonoBehaviour:
   _myCoordX: 2
   _myCoordY: 0
   canClick: 0
-  _Cube: []
 --- !u!65 &438058092
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -513,7 +502,6 @@ MonoBehaviour:
   _myCoordX: 1
   _myCoordY: 0
   canClick: 0
-  _Cube: []
 --- !u!65 &488615362
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -574,7 +562,6 @@ MonoBehaviour:
   _myCoordX: 2
   _myCoordY: 1
   canClick: 0
-  _Cube: []
 --- !u!65 &498521339
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -780,7 +767,6 @@ MonoBehaviour:
   _myCoordX: 2
   _myCoordY: 2
   canClick: 0
-  _Cube: []
 --- !u!65 &704061768
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1201,7 +1187,6 @@ MonoBehaviour:
   _myCoordX: 0
   _myCoordY: 1
   canClick: 0
-  _Cube: []
 --- !u!65 &869827074
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1363,7 +1348,6 @@ MonoBehaviour:
   _myCoordX: 0
   _myCoordY: 0
   canClick: 0
-  _Cube: []
 --- !u!65 &933829468
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1833,7 +1817,6 @@ MonoBehaviour:
   _myCoordX: 1
   _myCoordY: 1
   canClick: 0
-  _Cube: []
 --- !u!65 &1115226685
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2026,7 +2009,6 @@ MonoBehaviour:
   _myCoordX: 0
   _myCoordY: 2
   canClick: 0
-  _Cube: []
 --- !u!65 &1300775588
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2087,7 +2069,6 @@ MonoBehaviour:
   _myCoordX: 1
   _myCoordY: 2
   canClick: 0
-  _Cube: []
 --- !u!65 &1375841068
 BoxCollider:
   m_ObjectHideFlags: 0

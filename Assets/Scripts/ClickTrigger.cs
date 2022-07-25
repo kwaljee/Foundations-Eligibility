@@ -13,15 +13,15 @@ public class ClickTrigger : MonoBehaviour
 	private int _myCoordY = 0;
 
 	[SerializeField]
-	private bool canClick;
+	public bool canClick;
 
 
-	private int aiRandXPos;
-	private int aiRandYPos;
+	// variables added
+	//private int aiRandXPos; //assign random x pos for ai turn
+	//private int aiRandYPos; //assign random y pos for ai turn
+	//public int turnVal; //1 for player turn and 2 for ai turn
+
 	
-	[SerializeField]
-	GameObject [] _Cube;
-
 	private void Awake()
 	{
 		_ai = FindObjectOfType<TicTacToeAI>();
@@ -45,25 +45,12 @@ public class ClickTrigger : MonoBehaviour
 	}
 
 	
-
 	private void OnMouseDown()
 	{
 		if (canClick)
 		{
 			_ai.PlayerSelects(_myCoordX, _myCoordY);
-			//Make sure no piece can be put on top of another piece on players turn
-			canClick = false;
-			
-			SwitchTurns();
 		}
 	}
-
-	private void SwitchTurns()
-	{
-		//aiRandXPos = UnityEngine.Random.Range(0, 3);
-		//aiRandYPos = UnityEngine.Random.Range(0, 3);
-		//_ai.AiSelects(aiRandXPos, aiRandYPos);
-	}
-
 
 }
